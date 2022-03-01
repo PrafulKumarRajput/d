@@ -1,0 +1,58 @@
+.main-header{
+    background: url('/images/typing.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+ 
+     
+}
+ 
+.main-container {
+    position: absolute;
+ 
+     width:80%;
+      
+    
+     margin-left:141px;
+     height:fit-content;
+    overflow: hidden;
+  
+    padding: 30px;
+    
+}
+.card-container{
+     margin-bottom: 20px;
+   
+}
+.container-one{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 1rem;
+}
+.container-two{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-gap: 1rem;
+    padding: 0rem 1rem;
+}
+.container-three{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 1rem;
+    padding: 0rem 1.2rem;
+}
+.box{
+    border: 2px solid white;
+    align-items: center;
+    text-align: center;
+     padding: 10px 10px ;
+     margin: 0px 10px;
+    color: white;
+   height: fit-content;
+   box-shadow: ;
+}

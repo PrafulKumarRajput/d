@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/about_media.css">
+    <link rel="stylesheet" href="./css/aboutt.css">
+    <link rel="stylesheet" href="./css/indexx.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/typin.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="main-header">
+         
+            <div class="main-container">
+                <div class="container-one card-container">
+                    <div class="box" id="Q">Q</div>
+                    <div class="box" id="W">W</div>
+                    <div class="box" id="E">E</div>
+                    <div class="box" id="R">R</div>
+                    <div class="box" id="T">T</div>
+                    <div class="box" id="Y">Y</div>
+                    <div class="box" id="U">U</div>
+                    <div class="box" id="I">I</div>
+                    <div class="box" id="O">O</div>
+                    <div class="box" id="P">P</div>
+                </div>
+                <div class="container-two card-container">
+                    <div class="box" id="A">A</div>
+                    <div class="box" id="S">S</div>
+                    <div class="box" id="D">D</div>
+                    <div class="box" id="F">F</div>
+                    <div class="box" id="G">G</div>
+                    <div class="box" id="H">H</div>
+                    <div class="box" id="J">J</div>
+                    <div class="box" id="K">K</div>
+                    <div class="box" id="L">L</div>
+                    </div>
+                <div class="container-three card-container">
+                    <div class="box" id="Z">Z</div>
+                    <div class="box" id="X">X</div>
+                    <div class="box" id="C">C</div>
+                    <div class="box" id="V">V</div>
+                    <div class="box" id="B">B</div>
+                    <div class="box" id="N">N</div>
+                    <div class="box" id="M">M</div>
+                </div>
+            </div>
+         
+    </header>
+
+
+
+    <audio id="audio_For_A" controls style="display:none">
+        <source src="./audios/horse.ogv"> Your browser does not support the audio element.
+      </audio>
+      <audio id="audio_For_B" controls style="display:none">
+        <source src="./audios/clap.wav"> Your browser does not support the audio element.
+      </audio>
+      <audio id="audio_For_C" controls style="display:none">
+        <source src="./audios/boom.wav"> Your browser does not support the audio element.
+      </audio>
+
+
+
+
+
+
+    <script>
+        var A=document.getElementById('A') ;
+        
+        var B=document.getElementById('B');
+        var C=document.getElementById('C');
+
+
+
+
+
+
+        document.body.addEventListener('keydown',function(e){
+            var keypre=e.keyCode;
+            switch(keypre){
+                case 65:
+                    A.style.opacity=0.5
+                    A.style.color='red'
+                    A.style.fontWeight='bold'
+                    A.style.fontSize='20px'
+                    A.style.boxShadow=' 0px 0px 15px 8px red'
+                    document.getElementById('audio_For_A').play();
+                    break;
+
+                case 66:
+                    B.style.opacity=0.5
+                    B.style.color='red'
+                    B.style.fontWeight='bold'
+                    B.style.fontSize='20px'
+                    B.style.boxShadow=' 0px 0px 15px 8px red'
+                    document.getElementById('audio_For_B').play();
+                    break;
+                case 67:
+                    C.style.opacity=0.5
+                    C.style.color='red'
+                    C.style.fontWeight='bold'
+                    C.style.fontSize='20px'
+                    C.style.boxShadow=' 0px 0px 15px 8px red'
+                    document.getElementById('audio_For_C').play();
+                case 68:
+                case 69:
+                case 70:
+                case 71:
+                case 72:
+                case 73:
+                case 74:
+                case 75:
+                case 76:
+                case 77:
+                case 78:
+                case 79:
+                case 80:
+                case 81:
+                case 81:
+                case 82:
+                case 83:
+                case 84:
+                case 85:
+                case 86:
+                case 87:
+                case 88:
+                case 89:
+                case 90:
+                
+
+            }
+        })
+        document.body.addEventListener('keyup',function(e){
+            var keypre=e.keyCode;
+            switch(keypre){
+                case 65:
+                    A.style.opacity='1'
+                    A.style.color='white'
+                    A.style.fontSize='16px'
+                    A.style.fontWeight='normal'
+                    A.style.boxShadow='none'
+                    document.getElementById('audio');
+                    break;
+
+                case 66:
+                    B.style.opacity='1'
+                    B.style.color='white'
+                    B.style.fontSize='16px'
+                    B.style.fontWeight='normal'
+                    B.style.boxShadow='none'
+                    document.getElementById('audio');
+                    break;
+
+                case 67:
+                    C.style.opacity='1'
+                    C.style.color='white'
+                    C.style.fontSize='16px'
+                    C.style.fontWeight='normal'
+                    C.style.boxShadow='none'
+                    document.getElementById('audio');
+                    break;
+
+            }
+        })
+ 
+    </script>
+</body>
+</html>
